@@ -10,6 +10,7 @@ namespace RulesEngine
             Registration register = new Registration();
             Payment payment = new Payment();
             payment.Item = "Product";
+            Payment("Rules is broken");
             IRuleEngine<Registration> ruleEngine = RuleEngineFactory<Registration>.GetEngine();
 
             register.UserName = "";
