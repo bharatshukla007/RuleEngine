@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Properties>
+  <Property Name="Item Type">
+    <Validator Type="Item Type" ErrorMessage="Item Type is required."/>
+    <Validator Type="MaxLenField" Max ="15" ErrorMessage="length should be not be greater than 15."/>
+  </Property>
+</Properties>
+
